@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Control GPIO From Web_App</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" href="static/css/normalize.css">
+    <link rel="stylesheet" href="static/css/skeleton.css">
+
+    <link rel="icon" type="image/png" href="static/images/favicon.png">
+</head>
+<body>
+
+<div Class ="container">
+<h1>Device - Status DashBoard</h1><br>
+<h2>Status of Devices </h2>
+<h3>Bulb One : {{ledOne}}</h3>
+<h3>Bulb Two : {{ledTwo}}</h3>
+
+<h2>Device Control Panel</h2>
+<h3> Bulb One == <a href ="/ledOne/On" class="button">TURN ON</a> <a href="/ledOne/off" class = "button">TURN OFF</a></h3>
+<h3> Bulb Two == <a href ="/ledTwo/On" class="button">TURN ON</a> <a href="/ledTwo/off" class = "button">TURN OFF</a></h3>
+</div>
+
+</body>
+</html>
